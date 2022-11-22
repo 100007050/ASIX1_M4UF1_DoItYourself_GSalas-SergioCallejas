@@ -1,0 +1,47 @@
+h1 { /* Rule 1 */
+	text-decoration: underline overline;
+	color: darkred;
+	text-align: center;
+}
+h2 {
+	text-decoration: underline; /* Rule 2 */
+	color: darkblue;
+	text-align: center;
+}
+[class$="despacio"] { /*Rule 3*/
+	padding: 2%;
+	border: solid darkred 1px;
+	border-radius: 2px;
+	text-align: center;
+}
+span { /* Rule 4 */
+	font-weight: 500;
+	background-color: black;
+	color: white;
+}
+[class$="primera"] { /*Rule 5*/
+	padding: 2%;
+	border: solid red 3px;
+	border-radius: 2px;
+}
+[class$="segunda"] { /*Rule 6*/
+	padding: 2%;
+	border: solid yellow 3px;
+	border-radius: 2px;
+}
+[class$="tercera"] { /*Rule 7*/
+	padding: 2%;
+	border: solid darkblue 3px;
+	border-radius: 2px;
+}
+[class$="cuarta"] { /*Rule 8*/
+	padding: 2%;
+	border: 5px outset darkcyan;
+	border-radius: 2px;
+}
+p { /* Rule 9 */
+	font-family: Arial;
+}
+* { /* Rule 10 */
+	font-family: courier;
+}
